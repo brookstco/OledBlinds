@@ -21,7 +21,13 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
         </activity>
+        <activity
+            android:name="com.catly.oledsaver.features.utils.FloatingWindowServiceActivity"
+            android:theme="@style/Theme.Transparent"
+            />
         <service
             android:name="com.catly.oledsaver.features.floating_window.FloatingWindowService"
             android:enabled="true"

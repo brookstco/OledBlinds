@@ -9,6 +9,7 @@
     <string name="overrideDescription">For forced fullscreen apps</string>
     <string name="hello_first_fragment">Good to Go!</string>
     <string name="app_tile_name">OLED Blinds</string>
+    <string name="shortcut_name">Toggle Blinds</string>
     <string name="status_bar_size">Status Bar Size</string>
     <string name="status_bar_dialog">Put the size of your status bar</string>
     <string name="help">Help</string>
