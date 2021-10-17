@@ -324,10 +324,14 @@ class FloatingWindowService : Service() {
 
     fun showButtons() {
         if (flipped){
-            showLeftRightButtons()
+            if (!tapBehind) {
+                showLeftRightButtons()
+            }
             hideLeftRightButtons()
         } else {
-            showTopBottomButtons()
+            if (!tapBehind) {
+                showTopBottomButtons()
+            }
             hideTopBottomButtons()
         }
     }

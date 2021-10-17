@@ -37,7 +37,11 @@ open class BaseBar(private val floatingWindowService: FloatingWindowService) {
     }
 
     fun hideButtons(){
-        viewLayout.postDelayed(hideRunnable , hideDuration)
+        if (floatingWindowService.tapBehind) {
+            buttonsGroup.visibility = View.GONE
+        } else {
+            viewLayout.postDelayed(hideRunnable, hideDuration)
+        }
     }
 
     fun showButtons(){
