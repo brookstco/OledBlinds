@@ -8,6 +8,6 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="com.catly.oledsaver"
-            android:targetClass= "com.catly.oledsaver.features.utils.FloatingWindowServiceActivity" />
+            android:targetClass= "com.catly.oledsaver.features.utils.FloatingWindowServiceToggleActivity" />
     </shortcut>
 </shortcuts>
