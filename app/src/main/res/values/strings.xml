@@ -12,6 +12,8 @@
     <string name="shortcut_name">Toggle Blinds</string>
     <string name="status_bar_size">Status Bar Size</string>
     <string name="status_bar_dialog">Put the size of your status bar</string>
+    <string name="width">Width of Horizontal Blinds</string>
+    <string name="height">Height of Vertical Blinds</string>
     <string name="help">Help</string>
     <string name="feedback">Feedback</string>
     <string name="tap_behind">Touch Passthrough</string>

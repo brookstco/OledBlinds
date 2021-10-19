@@ -36,6 +36,21 @@
         android:dialogTitle="@string/status_bar_dialog"
         app:iconSpaceReserved="false"
         />
+    
+    <com.catly.oledsaver.features.utils.IntEditTextPreference
+        android:key="width"
+        android:title="@string/width"
+        android:defaultValue="200"
+        app:useSimpleSummaryProvider="true"
+        app:iconSpaceReserved="false"
+        />
+    <com.catly.oledsaver.features.utils.IntEditTextPreference
+        android:key="height"
+        android:title="@string/height"
+        android:defaultValue="200"
+        app:useSimpleSummaryProvider="true"
+        app:iconSpaceReserved="false"
+        />
 
     <Preference
         app:key="help"
