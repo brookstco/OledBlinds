@@ -9,6 +9,7 @@ import android.widget.EditText;
 import androidx.annotation.NonNull;
 import androidx.preference.EditTextPreference;
 
+// Thanks to https://stackoverflow.com/a/66188162
 public class IntEditTextPreference extends EditTextPreference implements EditTextPreference.OnBindEditTextListener {
     private String mText;
 

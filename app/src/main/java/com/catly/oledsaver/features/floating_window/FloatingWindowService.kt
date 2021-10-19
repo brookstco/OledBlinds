@@ -194,6 +194,7 @@ class FloatingWindowService : Service() {
         } else {
             topDownMode()
         }
+
         setLockState()
         sharedPreferences.registerOnSharedPreferenceChangeListener(preferenceListener)
         displayManager.registerDisplayListener(displayListener, Handler())
